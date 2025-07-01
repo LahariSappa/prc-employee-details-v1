@@ -37,7 +37,7 @@ output application/json
   "lastName": payload.lastName,
   "email": payload.email,
   "phoneNumber": payload.phoneNumber,
-  "dateOfJoining": dateMasker::maskYear(payload.dateOfJoining as String {format:"yyyy-MM-dd"})
+  "dateOfJoining": dateMasker::maskYear(payload.dateOfJoining as Date as String {format: "dd-MM-yyyy"})
 }]]></ee:set-payload>
 </ee:message>
 				</ee:transform>
