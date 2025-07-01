@@ -11,8 +11,6 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 	<flow name="create-employee-flow" doc:id="8ca6b393-d011-4c8f-818b-1fe7f25d6096" >
 		<logger level="INFO" doc:name="Initial Logger" doc:id="324e6fe4-dca2-46ff-a6e6-692df0fea39b" message="Request recieved to create an employee"/>
 		<ee:transform doc:name="field-check" doc:id="f4c978cb-0cf3-42b8-b1da-f2f19bb0e9f0" >
-			<ee:message >
-			</ee:message>
 			<ee:variables >
 				<ee:set-variable variableName="emailValidation" ><![CDATA[%dw 2.0
 import java!employee::emailValidator
@@ -31,6 +29,7 @@ var email = payload.email as String
 				<ee:transform doc:name="db-payload" doc:id="01ee091b-0b8a-456d-9f45-5220584eac86">
 					<ee:message>
 						<ee:set-payload><![CDATA[%dw 2.0
+import java!employee::dateMasker
 output application/json
 ---
 {
@@ -38,9 +37,9 @@ output application/json
   "lastName": payload.lastName,
   "email": payload.email,
   "phoneNumber": payload.phoneNumber,
-  "dateOfJoining": payload.dateOfJoining as String {format:"yyyy-MM-dd"}
+  "dateOfJoining": dateMasker::maskYear(payload.dateOfJoining as String {format:"yyyy-MM-dd"})
 }]]></ee:set-payload>
-					</ee:message>
+</ee:message>
 				</ee:transform>
 				<db:insert doc:name="Insert" doc:id="8222ca60-1a38-440d-b207-31d924df94d8" config-ref="Database_Config">
 			<db:sql><![CDATA[insert into employee (firstName,lastName,email,phoneNumber,dateOfJoining) values (:firstName,:lastName,:email,:phoneNumber,:dateOfJoining)]]></db:sql>
