@@ -1,0 +1,152 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< 3a9cca3f-6f26-4739-a324-d382dffc72c7:prc-employee-details-v1 >----
+[INFO] Building prc-employee-details-v1 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------[ mule-application ]--------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean-1) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:clean (default-clean) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:validate (default-validate) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:initialize (default-initialize) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:generate-sources (default-generate-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:process-sources (default-process-sources) @ prc-employee-details-v1 ---
+[INFO] About to fetch required dependencies for artifact: 3a9cca3f-6f26-4739-a324-d382dffc72c7:prc-employee-details-v1:pom:1.0.0-SNAPSHOT. This may take a while...
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ prc-employee-details-v1 ---
+[INFO] Copying 12 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- mule:4.5.1:process-resources (default-process-resources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ prc-employee-details-v1 ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- mule:4.5.1:compile (default-compile) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:process-classes (default-process-classes) @ prc-employee-details-v1 ---
+[INFO] About to fetch required dependencies for artifact: 256de8f0-5722-11f0-bfa7-aa595f61a8f0:256de8f0-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 2841a260-5722-11f0-bfa7-aa595f61a8f0:2841a260-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 2920b7c0-5722-11f0-bfa7-aa595f61a8f0:2920b7c0-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] Component 'console' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[WARNING] Component 'router' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[INFO] About to fetch required dependencies for artifact: 2aceb5e0-5722-11f0-bfa7-aa595f61a8f0:2aceb5e0-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 2bead440-5722-11f0-bfa7-aa595f61a8f0:2bead440-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 2c962f70-5722-11f0-bfa7-aa595f61a8f0:2c962f70-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 2d18f400-5722-11f0-bfa7-aa595f61a8f0:2d18f400-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] Component 'console' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[WARNING] Component 'router' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[INFO] About to fetch required dependencies for artifact: 2df6a9d0-5722-11f0-bfa7-aa595f61a8f0:2df6a9d0-5722-11f0-bfa7-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] 
+[INFO] --- mule:4.5.1:generate-test-sources (default-generate-test-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ prc-employee-details-v1 ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- mule:4.5.1:generate-test-resources (default-generate-test-resources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ prc-employee-details-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- mule:4.5.1:test-compile (default-test-compile) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- munit:3.5.0:test (test) @ prc-employee-details-v1 ---
+[WARNING] MUnit will not run, no MUnit suites found in your project
+[INFO] 
+[INFO] >>> munit:3.5.0:coverage-report (test) > [munit]test @ prc-employee-details-v1 >>>
+[INFO] 
+[INFO] --- mule:4.5.1:validate (default-validate) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:initialize (default-initialize) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:generate-sources (default-generate-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:process-sources (default-process-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ prc-employee-details-v1 ---
+[INFO] Copying 12 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- mule:4.5.1:process-resources (default-process-resources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ prc-employee-details-v1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule:4.5.1:compile (default-compile) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:process-classes (default-process-classes) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:generate-test-sources (default-generate-test-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ prc-employee-details-v1 ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- mule:4.5.1:generate-test-resources (default-generate-test-resources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ prc-employee-details-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- mule:4.5.1:test-compile (default-test-compile) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- munit:3.5.0:test (test) @ prc-employee-details-v1 ---
+[INFO] Skipping execution of munit because it has already been run
+[INFO] 
+[INFO] <<< munit:3.5.0:coverage-report (test) < [munit]test @ prc-employee-details-v1 <<<
+[INFO] 
+[INFO] 
+[INFO] --- munit:3.5.0:coverage-report (test) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:package (default-package) @ prc-employee-details-v1 ---
+[INFO] Building zip: D:\Git\prc-employee-details-v1.git\target\prc-employee-details-v1-1.0.0-SNAPSHOT-mule-application.jar
+[INFO] 
+[INFO] --- mule:4.5.1:verify (default-verify) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ prc-employee-details-v1 ---
+[INFO] Installing D:\Git\prc-employee-details-v1.git\pom.xml to C:\Users\Lahari.Sappa\.m2\repository\3a9cca3f-6f26-4739-a324-d382dffc72c7\prc-employee-details-v1\1.0.0-SNAPSHOT\prc-employee-details-v1-1.0.0-SNAPSHOT.pom
+[INFO] Installing D:\Git\prc-employee-details-v1.git\target\prc-employee-details-v1-1.0.0-SNAPSHOT-mule-application.jar to C:\Users\Lahari.Sappa\.m2\repository\3a9cca3f-6f26-4739-a324-d382dffc72c7\prc-employee-details-v1\1.0.0-SNAPSHOT\prc-employee-details-v1-1.0.0-SNAPSHOT-mule-application.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:20 min
+[INFO] Finished at: 2025-07-02T14:24:45+05:30
+[INFO] ------------------------------------------------------------------------
