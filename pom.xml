@@ -85,7 +85,7 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>3a9cca3f-6f26-4739-a324-d382dffc72c7</groupId>
+			<groupId>9a7efc91-7cde-4ee4-8331-506cd2abf750</groupId>
 			<artifactId>prc-employee-details-v1</artifactId>
 			<version>1.0.0</version>
 			<classifier>raml</classifier>
