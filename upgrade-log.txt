@@ -1,0 +1,1135 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for 9a7efc91-7cde-4ee4-8331-506cd2abf750:prc-employee-details-v1:mule-application:1.0.0-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM 9a7efc91-7cde-4ee4-8331-506cd2abf750:prc-employee-details-v1:1.0.0-SNAPSHOT (D:\Git\prc-employee-details-v1.git\pom.xml) points at 3a9cca3f-6f26-4739-a324-d382dffc72c7:parent-pom instead of 9a7efc91-7cde-4ee4-8331-506cd2abf750:parent-pom, please verify your project structure @ line 6, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----< 9a7efc91-7cde-4ee4-8331-506cd2abf750:prc-employee-details-v1 >----
+[INFO] Building prc-employee-details-v1 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------[ mule-application ]--------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean-1) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:clean (default-clean) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:validate (default-validate) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:initialize (default-initialize) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:generate-sources (default-generate-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:process-sources (default-process-sources) @ prc-employee-details-v1 ---
+[INFO] About to fetch required dependencies for artifact: 9a7efc91-7cde-4ee4-8331-506cd2abf750:prc-employee-details-v1:pom:1.0.0-SNAPSHOT. This may take a while...
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ prc-employee-details-v1 ---
+[INFO] Copying 12 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- mule:4.5.1:process-resources (default-process-resources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ prc-employee-details-v1 ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- mule:4.5.1:compile (default-compile) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- mule:4.5.1:process-classes (default-process-classes) @ prc-employee-details-v1 ---
+[INFO] About to fetch required dependencies for artifact: 5e1c2e60-6b7b-11f0-a2e6-aa595f61a8f0:5e1c2e60-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 5f775190-6b7b-11f0-a2e6-aa595f61a8f0:5f775190-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 5ff952d0-6b7b-11f0-a2e6-aa595f61a8f0:5ff952d0-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] Component 'console' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[WARNING] Component 'router' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[INFO] About to fetch required dependencies for artifact: 61198fe0-6b7b-11f0-a2e6-aa595f61a8f0:61198fe0-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 61e8edd0-6b7b-11f0-a2e6-aa595f61a8f0:61e8edd0-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] Internal plugin library 'org.mule.runtime:mule-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-metadata-model-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-message-metadata-model' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration-persistence' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:api-annotations' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-commons' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[INFO] About to fetch required dependencies for artifact: 67b35200-6b7b-11f0-a2e6-aa595f61a8f0:67b35200-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] Internal plugin library 'org.mule.runtime:mule-api' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-metadata-model-api' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-message-metadata-model' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration-persistence' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:api-annotations' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-metadata-model-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-message-metadata-model' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration-persistence' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:api-annotations' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-commons' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 6ced0ef0-6b7b-11f0-a2e6-aa595f61a8f0:6ced0ef0-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 6d966e50-6b7b-11f0-a2e6-aa595f61a8f0:6d966e50-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 6e11dfe0-6b7b-11f0-a2e6-aa595f61a8f0:6e11dfe0-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] Component 'console' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[WARNING] Component 'router' in extension 'APIKit' already has a 'config-ref' parameter defined. Skipping ConfigRefDeclarationEnricher for it.
+[INFO] About to fetch required dependencies for artifact: 6f4f9000-6b7b-11f0-a2e6-aa595f61a8f0:6f4f9000-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] About to fetch required dependencies for artifact: 6fef5270-6b7b-11f0-a2e6-aa595f61a8f0:6fef5270-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] Internal plugin library 'org.mule.runtime:mule-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-metadata-model-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-message-metadata-model' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration-persistence' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:api-annotations' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-commons' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[INFO] About to fetch required dependencies for artifact: 7158a670-6b7b-11f0-a2e6-aa595f61a8f0:7158a670-6b7b-11f0-a2e6-aa595f61a8f0:pom:4.7.4. This may take a while...
+[WARNING] Internal plugin library 'org.mule.runtime:mule-api' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-metadata-model-api' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-message-metadata-model' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration-persistence' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:api-annotations' is a Mule Runtime dependency. It will not be used by 'munit-tools-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-metadata-model-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-message-metadata-model' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-artifact-declaration-persistence' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:api-annotations' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-api' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] Internal plugin library 'org.mule.runtime:mule-embedded-commons' is a Mule Runtime dependency. It will not be used by 'munit-runner-3.5.0-mule-plugin.jar' in order to avoid classloading issues. Please consider removing it, or at least not putting it with 'compile' scope.
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[WARNING] A Keys Resolver is being defined without defining an Output Resolver, Input Resolver nor Attributes Resolver
+[INFO] 
+[INFO] --- mule:4.5.1:generate-test-sources (default-generate-test-sources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ prc-employee-details-v1 ---
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- mule:4.5.1:generate-test-resources (default-generate-test-resources) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ prc-employee-details-v1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- mule:4.5.1:test-compile (default-test-compile) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ prc-employee-details-v1 ---
+[INFO] 
+[INFO] --- munit:3.5.0:test (test) @ prc-employee-details-v1 ---
+[INFO] Acquiring dynamic ports...
+[INFO] Dynamic port definition [DONE]
+[INFO] About to fetch required dependencies for artifact: 9a7efc91-7cde-4ee4-8331-506cd2abf750:prc-employee-details-v1:pom:1.0.0-SNAPSHOT. This may take a while...
+[INFO] Copying files to D:\Git\prc-employee-details-v1.git\target\munitworkingdir-517686877632200\prc-employee-details-v1
+[INFO] 33 files copied to D:\Git\prc-employee-details-v1.git\target\munitworkingdir-517686877632200\prc-employee-details-v1
+[INFO] Running MULE_EE with version 4.9.0
+INFO  2025-07-28 11:54:18,378 [main] org.mule.munit.remote.RemoteRunner: Run Started
+
+
+INFO  2025-07-28 11:54:18,378 [main] org.mule.munit.remote.RemoteRunner: Mule container is starting, it could take a few minutes
+2025-07-28T06:24:44.450Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.456Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.458Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.458Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.458Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.464Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.466Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.466Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.470Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.472Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.472Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.475Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.475Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.475Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.481Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:93)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$Builder.build(AsyncLoggerConfig.java:78)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.481Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig for element AsyncLogger: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.490Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger for element AsyncRoot: java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0 java.lang.UnsupportedClassVersionError: com/lmax/disruptor/EventHandler has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.getAsyncLoggerConfigDelegate(AbstractConfiguration.java:216)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.<init>(AsyncLoggerConfig.java:116)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger$Builder.build(AsyncLoggerConfig.java:345)
+	at org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger$Builder.build(AsyncLoggerConfig.java:331)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.490Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger for element AsyncRoot: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:637)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:726)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:748)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:264)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:153)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:138)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:136)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:58)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:32)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:432)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:457)
+	at org.mule.runtime.manifest.internal.DefaultMuleManifest.<clinit>(DefaultMuleManifest.java:35)
+	at org.mule.runtime.manifest.api.MuleManifest.getMuleManifest(MuleManifest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.lambda$getMuleManifest$0(EmbeddedManifest.java:23)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.executeWithinClassLoader(EmbeddedManifest.java:36)
+	at org.mule.runtime.module.embedded.internal.EmbeddedManifest.getMuleManifest(EmbeddedManifest.java:20)
+	at org.mule.runtime.module.embedded.internal.DefaultContainerInformation.<init>(DefaultContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.api.ContainerInformation.fromContainerClassLoader(ContainerInformation.java:21)
+	at org.mule.runtime.module.embedded.internal.AbstractEmbeddedContainer.<init>(AbstractEmbeddedContainer.java:80)
+	at org.mule.runtime.module.embedded.internal.ReflectionEmbeddedContainer.<init>(ReflectionEmbeddedContainer.java:40)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.getEmbeddedContainer(DefaultEmbeddedContainerBuilder.java:159)
+	at org.mule.runtime.module.embedded.internal.DefaultEmbeddedContainerBuilder.build(DefaultEmbeddedContainerBuilder.java:126)
+	at org.mule.munit.remote.container.EmbeddedContainerFactory.createContainer(EmbeddedContainerFactory.java:78)
+	at org.mule.munit.remote.SuiteRunDispatcherFactory.create(SuiteRunDispatcherFactory.java:40)
+	at org.mule.munit.remote.RemoteRunner.buildSuiteRunDispatcher(RemoteRunner.java:117)
+	at org.mule.munit.remote.RemoteRunner.run(RemoteRunner.java:96)
+	at org.mule.munit.remote.RemoteRunner.main(RemoteRunner.java:73)
+
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncLogger in Loggers.
+2025-07-28T06:24:44.490Z main ERROR Null object returned for AsyncRoot in Loggers.
+INFO  2025-07-28 11:54:44,549 [main] org.mule.munit.remote.container.ContainerSuiteRunDispatcher: The current java version is not supported by the runtime version [4.9.0].
+INFO  2025-07-28 11:54:44,551 [main] org.mule.munit.remote.coverage.CoverageManager: Shutting down coverage server
+INFO  2025-07-28 11:54:44,551 [main] org.mule.munit.remote.coverage.CoverageManager: Calculating application coverage
+
+
+
+
+INFO  2025-07-28 11:54:44,559 [main] org.mule.munit.remote.RemoteRunner: Done
+[INFO] ===============================================================================
+[INFO] MUnit Coverage Summary
+[INFO] ===============================================================================
+[INFO]  * Resources: 0 - Flows: 0 - Processors: 0
+[INFO]  * Application Coverage: N/A
+[INFO] ====================================================================================
+[INFO] MUnit Run Summary - Product: MULE_EE, Version: 4.9.0
+[INFO] ====================================================================================
+[INFO] 	
+[INFO] ====================================================================================
+[INFO]  > Tests:   	0
+[INFO]  > Errors:  	0
+[INFO]  > Failures:	0
+[INFO]  > Skipped: 	0
+[INFO] ====================================================================================
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:14 min
+[INFO] Finished at: 2025-07-28T11:54:44+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.mulesoft.munit.tools:munit-maven-plugin:3.5.0:test (test) on project prc-employee-details-v1: Build Failed: No tests were executed! (Set -Dmunit.failIfNoTests=false to ignore this error.) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
