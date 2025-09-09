@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>9a7efc91-7cde-4ee4-8331-506cd2abf750</groupId>
+	<groupId>9aca4ebe-682f-40ed-948e-4ebd6701f242</groupId>
 	<artifactId>prc-employee-details-v1</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
@@ -84,7 +84,7 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>9a7efc91-7cde-4ee4-8331-506cd2abf750</groupId>
+			<groupId>9aca4ebe-682f-40ed-948e-4ebd6701f242</groupId>
 			<artifactId>prc-employee-details-v1</artifactId>
 			<version>1.0.0</version>
 			<classifier>raml</classifier>
