@@ -88,7 +88,7 @@ output application/json
 	"applicationName" : app.name,
 	"errorType" : error.errorType,
 	"errorDescription" : error.detailedDescription,
-	"message" : error.muleMessage
+	"message" : error.errorMessage
 }]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
