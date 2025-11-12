@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	  <parent>
-		<groupId>3a9cca3f-6f26-4739-a324-d382dffc72c7</groupId>
+		<groupId>a187579a-832e-4efc-96e9-ba2fa61311ad</groupId>
 		<artifactId>parent-pom</artifactId>
 		<version>1.0.0</version>
 	  </parent>
 
-	<groupId>3a9cca3f-6f26-4739-a324-d382dffc72c7</groupId>
+	<groupId>a187579a-832e-4efc-96e9-ba2fa61311ad</groupId>
 	<artifactId>prc-employee-details-v1</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
