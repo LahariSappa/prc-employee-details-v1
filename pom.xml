@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>a187579a-832e-4efc-96e9-ba2fa61311ad</groupId>
+	<groupId>47562e5d-bf49-440a-a0f5-a9cea0a89aa9</groupId>
 	<artifactId>prc-employee-details-v1</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
@@ -56,10 +54,10 @@
 						<ignoreFiles>
 							<ignoreFile>prc-employee-details-v1.xml</ignoreFile>
 						</ignoreFiles>
-					<formats>
-						<format>html</format>
-					</formats>
-				</coverage>
+						<formats>
+							<format>html</format>
+						</formats>
+					</coverage>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -84,7 +82,7 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>9aca4ebe-682f-40ed-948e-4ebd6701f242</groupId>
+			<groupId>47562e5d-bf49-440a-a0f5-a9cea0a89aa9</groupId>
 			<artifactId>prc-employee-details-v1</artifactId>
 			<version>1.0.0</version>
 			<classifier>raml</classifier>
@@ -95,11 +93,6 @@
 			<artifactId>mule-db-connector</artifactId>
 			<version>1.14.16</version>
 			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.30</version>
 		</dependency>
 		<dependency>
 			<groupId>com.mulesoft.munit</groupId>
@@ -120,6 +113,11 @@
 			<artifactId>assertions</artifactId>
 			<version>1.0.2</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.30</version>
 		</dependency>
 	</dependencies>
 	<repositories>
